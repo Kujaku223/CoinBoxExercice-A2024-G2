@@ -40,4 +40,5 @@ jobs:
         pytest
     - name: Generate coverage
       run: |
+        pip install pytest-cov
         pytest  --cov --cov-report=html
