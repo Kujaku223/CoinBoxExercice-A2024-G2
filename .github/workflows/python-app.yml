@@ -40,4 +40,4 @@ jobs:
         pytest
     - name: Generate coverage
       run: |
-        pytest --cov-report=html
+        pytest  --cov --cov-report=html
